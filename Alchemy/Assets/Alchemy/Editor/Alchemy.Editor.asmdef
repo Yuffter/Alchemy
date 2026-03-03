@@ -19,6 +19,11 @@
             "name": "com.unity.serialization",
             "expression": "",
             "define": "ALCHEMY_SUPPORT_SERIALIZATION"
+        },
+        {
+            "name": "com.unity.netcode.gameobjects",
+            "expression": "",
+            "define": "ALCHEMY_SUPPORT_NETCODE"
         }
     ],
     "noEngineReferences": false
