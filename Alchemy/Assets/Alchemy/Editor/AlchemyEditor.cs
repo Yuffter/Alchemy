@@ -108,11 +108,11 @@ namespace Alchemy.Editor
     [CanEditMultipleObjects]
     internal sealed class ScriptableObjectEditor : AlchemyEditor { }
 
-#if ALCHEMY_SUPPORT_NETCODE
-    [CustomEditor(typeof(Unity.Netcode.NetworkBehaviour), editorForChildClasses: true, isFallback = true)]
-    [CanEditMultipleObjects]
-    internal sealed class NetworkBehaviourEditor : AlchemyEditor { }
-#endif
+// #if ALCHEMY_SUPPORT_NETCODE
+//     [CustomEditor(typeof(Unity.Netcode.NetworkBehaviour), editorForChildClasses: true, isFallback = true)]
+//     [CanEditMultipleObjects]
+//     internal sealed class NetworkBehaviourEditor : AlchemyEditor { }
+// #endif
 
 #endif
 
